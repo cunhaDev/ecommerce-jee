@@ -1,4 +1,4 @@
-package br.jee.ecommerce.config.connection;
+package br.jee.ecommerce.gateway.connection;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -18,7 +18,7 @@ public class ConexaoJDBC {
 		if (con == null) {
 			Properties properties = new Properties();
 			try {
-				FileInputStream file = new FileInputStream("C:/Users/mateu/Desktop/workspace/ecommerce-jee/src/br/jee/ecommerce/config/connection/JDBC.properties");
+				FileInputStream file = new FileInputStream("C:/Users/mateu/Desktop/workspace/ecommerce-jee/src/br/jee/ecommerce/gateway/connection/JDBC.properties");
 				properties.load(file);
 				url = properties.getProperty("url");
 				driver = properties.getProperty("driver");
