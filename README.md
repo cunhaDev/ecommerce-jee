@@ -5,3 +5,7 @@
 * XAMP
 * TOMCAT
 * JAVA 11
+* JSTL
+* JDBC
+* HTML
+* JSP
